@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
+</head>
+<title>Home- Organic Store</title>
+</head>
+
+<body class="max-w-full bg-stone-100">
+    <!-- Navgation bar starts here -->
+    <header class="p-3 mt-1 md:px-4">
+        <nav class="grid max-w-full grid-cols-2 gap-x-7">
+            <div class="md:flex md:gap-10">
+                <span>
+                    <a href="">
+                        <img width="200" height="94" class="max-w-24 md:max-w-[150px]"
+                            src="./assets/organic-store-logo5.svg" alt="" srcset="">
+                    </a>
+                </span>
+                <ul class="hidden md:flex md:gap-10 md:items-center md:block">
+                    <li>Everything</li>
+                    <li>Groceries</li>
+                    <li>Juice</li>
+                </ul>
+            </div>
+            <div class="flex items-center justify-end gap-5 md:gap-10">
+                <!-- Navgation Links -->
+                <ul class="hidden md:flex md:gap-10">
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+
+                <!-- currancy and user icons -->
+                <div>
+                    <bdi class="text-green-600">
+                        <span class="text-green-900">&#8377;</span> 0.00</bdi>
+                    <a href="#" class="mr-4 text-green-700 hover:text-gray-400">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <i class="text-green-700 fas fa-user"></i>
+                </div>
+                <div class="text-green-800 md:hidden">
+                    <a href="#" class="text-4xl ">&#8801;</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Navgation bar ends here -->
+
+
+    <!-- Main area starts here -->
+    <main class="w-full h-auto">
+        <div class="md:mx-auto md:max-w-6xl">
+            <!-- Hero section goes here -->
+            <section class="py-20 md:py-32">
+                <div class="flex flex-col-reverse gap-14 md:gap-0 md:flex-row md:flex md:justify-center ">
+                    <div class="relative w-full px-1 mx-2 overflow-hidden">
+                        <img class="" src=" ./assets/organic-products-hero.png" alt="" srcset="">
+                    </div>
+                    <div class="flex flex-col items-center justify-center gap-5 mx-5 md:items-start md:pl-9">
+                        <div class="">
+                            <img class="w-[85px]" src="./assets/logo-leaf-new.png" alt="" srcset="">
+
+                        </div>
+                        <h5 class="font-medium md:text-xl md:font-medium">Best Quality Products</h5>
+                        <div class="px-0 text-center md:text-left">
+                            <h1 class="pb-3 mb-3 text-3xl font-medium md:text-5xl">
+                                Join The Organic Movement!
+                            </h1>
+                            <p class="text-base font-light md:text-lg">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Ut elit tellus, luctus nec ullamcorpertext-base mattis, pulvinar
+                                dapibus leo.
+                            </p>
+                        </div>
+                        <div class="py-7">
+                            <button
+                                class="py-[10px] px-7 rounded-md text-white border-2 bg-green-600 border-green-800"><i
+                                    class="fas fa-shopping-cart"></i><span class="px-1 mx-2">Shop now</span></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Hero section ends here -->
+
+        <!--  Product and services goes here-->
+        <section class="flex flex-wrap justify-center w-full h-auto gap-6 bg-black p-7 md:p-9">
+            <div
+                class="flex flex-col items-start w-full gap-2 p-8 bg-gray-400 rounded-lg md:w-80 md:flex-row md:justify-center md:items-center md:gap-5 text-emerald-900 md:mb-0">
+                <div>
+                    <i class="text-3xl fas fa-truck"></i>
+                </div>
+                <div>
+                    <h5 class="text-xl font-medium md:text-2xl">Free Shipping</h5>
+                    <p class="text-base">Above $199</p>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col items-start w-full gap-2 p-8 bg-gray-400 rounded-lg md:w-80 md:flex-row md:justify-center md:items-center md:gap-5 text-emerald-900 md:mb-0">
+                <div>
+                    <i class="text-3xl fas fa-truck"></i>
+                </div>
+                <div>
+                    <h5 class="text-xl font-medium md:text-2xl">Certified Organic</h5>
+                    <p class="text-base">100% Guarantee</p>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col items-start w-full gap-2 p-8 bg-gray-400 rounded-lg md:w-80 md:flex-row md:justify-center md:items-center md:gap-5 text-emerald-900 md:mb-0">
+                <div>
+                    <i class="text-3xl fas fa-truck"></i>
+                </div>
+                <div>
+                    <h5 class="text-xl font-medium md:text-2xl">
+                        Huge Savings</h5>
+                    <p class="text-base">At Lowest Price</p>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col items-start w-full gap-2 p-8 bg-gray-400 rounded-lg md:w-80 md:flex-row md:justify-center md:items-center md:gap-5 text-emerald-900 md:mb-0">
+                <div>
+                    <i class="text-3xl fas fa-truck"></i>
+                </div>
+                <div>
+                    <h5 class="text-xl font-medium md:text-2xl">
+                        Easy Returns</h5>
+                    <p class="text-base">Above $199</p>
+                </div>
+            </div>
+
+        </section>
+        <section
+            class="flex flex-col flex-wrap justify-center w-full h-auto gap-6 mb-14 md:gap-12 bg-slate-100 p-7 md:p-9">
+            <div class="flex flex-col items-center gap-5 mt-9">
+                <h3 class="text-2xl font-semibold md:text-4xl">Best Selling Products</h3>
+                <img class="" src="./assets/logo-leaf-new.png" alt="" srcset="">
+            </div>
+            <div
+                class="flex flex-col flex-wrap items-center w-full space-y-12 md:space-x-7 md:space-y-0 md:flex md:flex-row md:flex-wrap md:justify-center">
+                <div class="flex flex-col items-center w-full space-y-1 md:w-72 border-">
+                    <div class="w-full">
+                        <div><img class="w-full" src="./assets/coffee-asorted-300x300.jpg" alt=""></div>
+                    </div>
+                    <div class="text-center">
+                        <span>Groceries</span>
+                        <a href="#">
+                            <h2>Assorted Coffee</h2>
+                        </a>
+                    </div>
+                    <div>
+                        <span class="text-orange-600 fa fa-star"></span>
+                        <span class="text-orange-600 fa fa-star checked"></span>
+                        <span class="text-orange-600 fa fa-star checked"></span>
+                        <span class="text-orange-600 fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <bdi class="text-green-600">
+                        <span class="text-green-900">&#8377;</span> 249.00</bdi>
+                </div>
+
+                <div class="flex flex-col items-center w-full space-y-1 md:w-72 border-">
+                    <div class="w-full">
+                        <div><img class="w-full" src="./assets/sanitizer-300x300.jpg" alt=""></div>
+                    </div>
+                    <div class="text-center">
+                        <span>Groceries</span>
+                        <a href="#">
+                            <h2>Hand Sanitizer</h2>
+                        </a>
+                    </div>
+                    <div>
+                        <span class="text-orange-600 fa fa-star"></span>
+                        <span class="text-orange-600 fa fa-star checked"></span>
+                        <span class="text-orange-600 fa fa-star checked"></span>
+                        <span class="text-orange-600 fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <bdi class="text-green-600">
+                        <span class="text-green-900">&#8377;</span> 99.00</bdi>
+                </div>
+
+
+                <div class="flex flex-col items-center w-full space-y-1 md:w-72 border-">
+                    <div class="w-full">
+                        <div><img class="w-full" src="./assets/red-chillies-300x300.jpg" alt=""></div>
+                    </div>
+                    <div class="text-center">
+                        <span>Groceries</span>
+                        <a href="#">
+                            <h2>Handpicked Red Chillies</h2>
+                        </a>
+                    </div>
+                    <div>
+                        <span class="text-orange-600 fa fa-star"></span>
+                        <span class="text-orange-600 fa fa-star checked"></span>
+                        <span class="text-orange-600 fa fa-star checked"></span>
+                        <span class="text-orange-600 fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <bdi class="text-green-600">
+                        <span class="text-green-900">&#8377;</span> 249.00</bdi>
+                </div>
+
+                <div class="flex flex-col items-center w-full space-y-1 md:w-72 border-">
+                    <div class="w-full">
+                        <div><img class="w-full" src="./assets/edible-oil-300x300.jpg" alt=""></div>
+                    </div>
+                    <div class="text-center">
+                        <span>Groceries</span>
+                        <a href="#">
+                            <h2>Natural Extracted Edible Oil</h2>
+                        </a>
+                    </div>
+                    <div>
+                        <span class="text-orange-600 fa fa-star"></span>
+                        <span class="text-orange-600 fa fa-star checked"></span>
+                        <span class="text-orange-600 fa fa-star checked"></span>
+                        <span class="text-orange-600 fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <bdi class="text-green-600">
+                        <span class="text-green-900">&#8377;</span> 249.00</bdi>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Main area starts here -->
+
+    <footer class="flex justify-center w-full h-auto border-2 border-red-700 bg-indigo-950 md:py-20">
+        <section class=" md:max-w-7xl md:grid md:grid-cols-3 md:items-center md:justify-center md:gap-x-5">
+            <div>
+                <div><img src="./assets/organic-store-white-logo.png" alt=""></div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis deleniti laborum animi
+                        delectus, quos repellendus nam consequatur minus facere doloremque nostrum ab maxime aut esse
+                        fugit provident! Porro, unde mollitia?</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h5>Quick Links</h5>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Cart</a></li>
+                        <li><a href="">Checkout</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">My account</a></li>
+                        <li><a href="">Shop</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Site Links</h5>
+                    <div>
+                        <ul>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Shipping Details</a></li>
+                            <li><a href="">Offers Coupons</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h5>Download Our Mobile App</h5>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam gravida sollicitudin.
+                        Praesent porta enim mi, non
+                        tincidunt libero interdum sit amet.</p>
+                </div>
+                <div>
+                    <h5>Quick Links</h5>
+                    <div>
+                        <ul>
+                            <li><a href="">Know More About Us</a></li>
+                            <li><a href="">Visit Store</a></li>
+                            <li><a href="">Let’s Connect</a></li>
+                            <li><a href="">Locate Stores</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section></section>
+    </footer>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
